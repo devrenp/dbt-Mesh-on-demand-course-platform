@@ -1,0 +1,7 @@
+groups:
+  - name: finance
+    owner:
+      name: Paul
+  - name: product
+    owner:
+      name: Niels    

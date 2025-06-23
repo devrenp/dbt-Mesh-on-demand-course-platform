@@ -2,6 +2,8 @@ version: 2
 
 models:
   - name: fct_orders
+    group: finance
+    access: public
     latest_version: 1
     config:
       contract:
