@@ -1,0 +1,30 @@
+version: 2
+models:
+  - name: dim_product_supplies
+    config:
+      contract: 
+        enforced: true
+    columns:
+      - name: PRODUCT_ID
+        data_type: VARCHAR
+
+      - name: PRODUCT_NAME
+        data_type: VARCHAR
+
+      - name: PRODUCT_TYPE
+        data_type: VARCHAR
+
+      - name: PRODUCT_DESCRIPTION
+        data_type: VARCHAR
+
+      - name: PRODUCT_PRICE
+        data_type: NUMBER
+
+      - name: IS_FOOD_ITEM
+        data_type: BOOLEAN
+
+      - name: IS_DRINK_ITEM
+        data_type: BOOLEAN
+
+      - name: SUPPLY_COST
+        data_type: NUMBER
